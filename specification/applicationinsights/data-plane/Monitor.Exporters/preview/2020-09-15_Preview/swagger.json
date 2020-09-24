@@ -167,6 +167,7 @@
       "x-ms-client-name": "MonitorBase",
       "type": "object",
       "description": "Data struct to contain only C section with custom fields.",
+      "additionalProperties": true,
       "properties": {
         "baseType": {
           "type": "string",
